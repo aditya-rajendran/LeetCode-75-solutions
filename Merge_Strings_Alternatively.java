@@ -8,7 +8,7 @@ class Solution {
             for(int i=0;i<len1;i++){
                 result+=""+word1.charAt(i)+word2.charAt(i);
             }
-            result+=word2.substring(len2-len1);
+            result+=word2.substring(len1);
             return result;
         }else{
             for(int i=0;i<len2;i++){
@@ -17,7 +17,7 @@ class Solution {
             if(len1==len2){
                 return result;
             }
-            result+=word1.substring(len1-len2);
+            result+=word1.substring(len2);
             return result;
         }
     }
