@@ -1,4 +1,4 @@
-class Solution {
+class Majority_Element {
 //not an ideal solution but it is guaranteed that there will be a majority element in the array
 //Must be a better solution than this, but this is the one I came up with in a short time.
 

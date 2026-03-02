@@ -1,5 +1,6 @@
-class Solution {
+class RomanToInteger {
     public int romanToInt(String s) {
+        
      //variable to store the sum:
      int sum=0;
 

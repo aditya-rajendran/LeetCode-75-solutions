@@ -1,4 +1,4 @@
-class Solution {
+class Merge_Strings_Alternatively {
     public String mergeAlternately(String word1, String word2) {
         String result ="";
         int len1=word1.length();
